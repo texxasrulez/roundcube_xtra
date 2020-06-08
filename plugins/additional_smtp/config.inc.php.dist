@@ -1,0 +1,54 @@
+<?php
+/* Password encryption:
+    'rcmail': encrypt passwords by default Roundcube methods.
+    'secure': must re-enter passwords if changed via other means
+*/
+$config['additional_smtp_crypt'] = 'rcmail';
+
+/* password encryption salt (only used for secure encryption) */
+$config['additional_smtp_salt'] = '!!!!Random_1_2_4_5_6_String!!!!';
+
+/* predefined smtp hosts (associated with the domain part of the identity email property) */
+$config['additional_smtp_external'] = array(
+  'gmail.com' => array(
+    'host' =>'ssl://smtp.gmail.com:465',
+    'no_save_sent_messages' => true, // Google stores sent mail in user mailbox
+    'readonly' => true, // on match prevent field editing
+  ),
+  'googlemail.com' => array(
+    'host' =>'ssl://smtp.gmail.com:465',
+    'no_save_sent_messages' => true, // Google stores sent mail in user mailbox
+    'readonly' => true, // on match prevent field editing
+  ),
+  'freenet.de' => array(
+    'host' =>'mx.freenet.de',
+    'no_save_sent_messages' => false,
+    'readonly' => false, // on match prevent field editing
+  ),
+);
+
+/* local smtp hosts (associated with the domain part of identitiy email property) */
+$config['additional_smtp_internal'] = array(
+  'mydomain1.tld' => array(
+    'host' => 'smtp.mydomain1.tld',
+    'smtp_user' => '%u',
+    'smtp_pass' => '%p',
+    'smtp_helo_host' => 'smtp.mydomain1.tld',
+    'smtp_auth_type' => '',
+    'no_save_sent_messages' => false,
+    'readonly' => true,
+  ),
+  'mydomain2.tld' => array(
+    'host' => 'ssl://smtp.mydomain2.tld:465',
+    'smtp_user' => '%u',
+    'smtp_pass' => '%p',
+    'smtp_helo_host' => 'smtp.mydomain2.tld',
+    'smtp_auth_type' => '',
+    'no_save_sent_messages' => false,
+    'readonly' => false,
+  ),
+);
+
+/* auto-detect SMTP server */
+$config['additional_smtp_autodetect'] = false;
+?>
