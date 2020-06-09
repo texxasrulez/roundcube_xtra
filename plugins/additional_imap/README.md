@@ -22,13 +22,13 @@ Screenshots
 -----------
 
 Gmail  
-![Alt text](/screenshots/gmail_additional_imap.png?raw=true "GMail Inbox")
+![Alt text](./screenshots/gmail_additional_imap.png?raw=true "GMail Inbox")
 
 Yahoo Mail  
-![Alt text](/screenshots/yahoo_additional_imap.png?raw=true "Yahoo Mail Inbox")
+![Alt text](./screenshots/yahoo_additional_imap.png?raw=true "Yahoo Mail Inbox")
 
 Hotmail  
-![Alt text](/screenshots/hotmail_additional_imap.png?raw=true "Hotmail Inbox")
+![Alt text](./screenshots/hotmail_additional_imap.png?raw=true "Hotmail Inbox")
 
 
 Enjoy!  
