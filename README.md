@@ -4,9 +4,9 @@ Roundcube Xtra Webmail Client
 
 **Forked with latest release with extras**  
 
-I am maintaining a current version with extra skins and plugins.  
+I am maintaining a current version with extra skins and plugin support for those skins.  
 
-While I show all files, just use the tar.gz file within the tarball_installer directory to upload and install.  
+While I show all files, just use the tar.gz file within the tarball_installer directory to upload and install. I have the whole enchilada in there.   
 
 INTRODUCTION
 ------------
