@@ -4,7 +4,7 @@
     "description": "The Roundcube Webmail suite with extra skins & plugins included",
     "homepage": "https://github.com/texxasrulez/roundcube_xtra",
     "license": "GPL-3.0+",
-    "version": "1.4.6.1",
+    "version": "1.4.6.3",
     "authors": [
         {
             "name": "Gene Hawkins",
