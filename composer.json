@@ -1,17 +1,7 @@
 {
-    "name": "texxasrulez/roundcube_xtra",
-    "type": "roundcube-plugin",
-    "description": "The Roundcube Webmail suite with extra skins & plugins included",
-    "homepage": "https://github.com/texxasrulez/roundcube_xtra",
+    "name": "roundcube/roundcubemail",
+    "description": "The Roundcube Webmail suite",
     "license": "GPL-3.0+",
-    "version": "1.4.6.3",
-    "authors": [
-        {
-            "name": "Gene Hawkins",
-            "email": "texxasrulez@yahoo.com",
-            "role": "Lead"
-        }
-    ],
     "repositories": [
         {
             "type": "composer",

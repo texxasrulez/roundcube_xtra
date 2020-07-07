@@ -1,6 +1,16 @@
 CHANGELOG Roundcube Webmail
 ===========================
 
+RELEASE 1.4.7
+-------------
+- Fix bug where subfolders of special folders could have been duplicated on folder list
+- Increase maximum size of contact jobtitle and department fields to 128 characters
+- Fix missing newline after the logged line when writing to stdout (#7418)
+- Elastic: Fix context menu (paste) on the recipient input (#7431)
+- Fix problem with forwarding inline images attached to messages with no HTML part (#7414)
+- Fix problem with handling attached images with same name when using database_attachments/redundant_attachments (#7455)
+- Security: Fix cross-site scripting (XSS) via HTML messages with malicious svg/namespace
+
 RELEASE 1.4.6
 -------------
 - Installer: Fix regression in SMTP test section (#7417)
